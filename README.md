@@ -3,7 +3,7 @@
 [dzen2](https://github.com/minos-org/dzen2/) is a general purpose messaging, notification and menuing program for X11. This is a custom + freeze version, refer to [robm](https://github.com/robm/dzen) for the original one.
 
 <p align="center">
-<img src="" alt="dzen2"/>
+<img src="https://raw.githubusercontent.com/minos-org/dzen2/master/dzen2.png" alt="dzen2"/>
 </p>
 
 ## Quick start
@@ -18,7 +18,7 @@
 
 ### On other Linux distributions
 
-1. Edit config.mk to match your local setup (dzen is installed into the /usr/local namespace by default).
+1. Edit config.mk to match your local setup (dzen is installed into the /usr/ namespace by default).
 
 2. Type `sudo make clean install`
 
@@ -33,4 +33,4 @@
 
 * XFT support by default
 * XINERAMA support by default
-* Configurable docking
+* Configurable docking option -dock b (bottom), -dock t (top) (top)
