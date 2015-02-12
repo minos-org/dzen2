@@ -8,13 +8,21 @@
 
 ## Quick start
 
-### On Ubuntu
+### On Ubuntu (only LTS releases)
+
+1. Set up the minos archive:
 
    ```
    $ sudo add-apt-repository ppa:minos-archive/main
-   $ sudo apt-get update
-   $ sudo apt-get install dzen2
    ```
+   
+2. Install:
+
+   ```
+   $ sudo apt-get update && sudo apt-get install dzen2
+   ```
+
+3. Enjoy ☺!
 
 ### On other Linux distributions
 
